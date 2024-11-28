@@ -1,4 +1,4 @@
-![Imagen principal de la Aplicación](https://www.mundodeportivo.com/urbantecno/hero/2024/04/todos-los-tipos-de-universos-que-existen.jpg?width=1200&aspect_ratio=16:9)
+![Imagen principal de la Aplicación](https://camo.githubusercontent.com/e8924d07fa4cff698900e982b664f24303a41d716f08d45b2ece7260cdc10666/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f33612f64652f63392f33616465633937626334626238663631353562646634356234343033343738332e706e67)
 
 # Aplicación de Desarrollo de Interfaces
 
