@@ -11,15 +11,14 @@
         android:id="@+id/studio"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:fontFamily="@font/playwritegbs_italic_variablefont_wght"
+        android:fontFamily="@font/alatsi"
         android:text="@string/studio"
-        android:textSize="45sp"
-        android:textColor="@color/white"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="@+id/main"
+        android:textColor="@color/white"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="@id/main"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        />
+        app:layout_constraintStart_toStartOf="@+id/main"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
 
     <ImageView
         android:layout_marginTop="200dp"

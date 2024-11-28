@@ -31,7 +31,7 @@ public class profileActivity extends AppCompatActivity { // Cambié el nombre a 
         ImageView mImagen = findViewById(R.id.perfil);
 
         Glide.with(this)
-                .load("https://preview.redd.it/w2xgfjroo9e51.png?auto=webp&s=4e3cf3ecb3ab58a16fc6eae303f320be4d9c2539")
+                .load("https://pasaportealcosmos.com/wp-content/uploads/2023/11/Nicolas-Copernico-480-de-su-fallecimiento-Noche-de-las-estrellas-2023-1.webp")
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .circleCrop()
                 .into(mImagen);

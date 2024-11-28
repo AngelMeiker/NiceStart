@@ -31,7 +31,7 @@ public class sign_up extends AppCompatActivity {
         ImageView mZoro = findViewById(R.id.zoro);
 
         Glide.with(this)
-                .load("https://i.pinimg.com/originals/ed/36/06/ed36068b770fccee01111b749bb71346.png") // o usa una URL si lo prefieres
+                .load("https://services.meteored.com/img/article/universo-pode-estar-desacelerando-segundo-novas-observacoes-de-galaxias-1712261219743_1280.png") // o usa una URL si lo prefieres
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.green)))
                 .centerCrop()

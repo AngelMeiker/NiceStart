@@ -24,7 +24,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class main extends AppCompatActivity {
 
-    private static final String URL_TO_LOAD = "https://steamuserimages-a.akamaihd.net/ugc/2022713958815730466/08D4493B352255BF529F30FC3B3C919C3ADD1D6A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false";
+    private static final String URL_TO_LOAD = "https://cdn.pixabay.com/animation/2022/11/16/14/56/14-56-49-778_512.gif";
 
     private SwipeRefreshLayout swipeLayout;
     private WebView miVisorWeb;

@@ -26,7 +26,7 @@ public class login extends AppCompatActivity {
         ImageView mLuffy = findViewById(R.id.luffy);
 
         Glide.with(this)
-            .load("https://opbr-en.bn-ent.net/assets/data/webp/character/0005_2d.png.webp")
+            .load("https://img.rtve.es/imagenes/por-estrellas-solo-brillan-noche/1682336188585.jpg")
             .transition(DrawableTransitionOptions.withCrossFade(2000))
             .placeholder(new ColorDrawable(this.getResources().getColor(R.color.green)))
             .centerCrop()

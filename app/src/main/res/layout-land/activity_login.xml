@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:alpha="0.6"
             android:background="@color/gray"
+            android:fontFamily="@font/alatsi"
             android:hint="@string/input_username" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:alpha="0.6"
             android:background="@color/gray"
+            android:fontFamily="@font/alatsi"
             android:hint="@string/input_password" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,6 +76,8 @@
         android:id="@+id/boton1"
         android:text="@string/boton_login"
         android:onClick="loginToMain"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alatsi"
         app:layout_constraintStart_toStartOf="@id/guialinea1"
         app:layout_constraintEnd_toEndOf="@id/guialinea2"
         app:layout_constraintTop_toBottomOf="@id/input_password"
@@ -85,6 +89,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sing_up"
         android:onClick="openSignup"
+        android:fontFamily="@font/alatsi"
         app:layout_constraintStart_toStartOf="@id/guialinea1"
         app:layout_constraintEnd_toEndOf="@id/guialinea2"
         app:layout_constraintTop_toBottomOf="@id/boton1"

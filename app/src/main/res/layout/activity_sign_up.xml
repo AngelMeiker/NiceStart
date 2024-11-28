@@ -90,6 +90,7 @@
         android:id="@+id/signup"
         android:text="@string/sing_up"
         android:onClick="signupToMain"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@id/guialinea1"
         app:layout_constraintEnd_toEndOf="@id/guialinea2"
         app:layout_constraintTop_toBottomOf="@id/input_confirm_password"
