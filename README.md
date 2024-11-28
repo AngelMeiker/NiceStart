@@ -1,4 +1,4 @@
-![Imagen principal de la Aplicación](https://i.pinimg.com/originals/3a/de/c9/3adec97bc4bb8f6155bdf45b44034783.png)
+![Imagen principal de la Aplicación](https://www.mundodeportivo.com/urbantecno/hero/2024/04/todos-los-tipos-de-universos-que-existen.jpg?width=1200&aspect_ratio=16:9)
 
 # Aplicación de Desarrollo de Interfaces
 
