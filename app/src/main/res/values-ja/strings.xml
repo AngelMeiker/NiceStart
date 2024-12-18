@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NiceStart</string>
+    <string name="login">ログイン</string>
+    <string name="signup">"登録する "</string>
+    <string name="boton_login">" ログイン"</string>
+    <string name="sing_up">"登録する "</string>
+    <string name="input_username">"ユーザー名 "</string>
+    <string name="input_password">"パスワード "</string>
+    <string name="logo">"ロゴ "</string>
+    <string name="email">" 電子メール"</string>
+    <string name="confirm_password">パスワードを認証する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="perfil">プロフィール</string>
+    <string name="ajustes">設定</string>
+    <string name="notificaciones">通知</string>
+    <string name="cambiar_de_perfil">プロフィールを変更する</string>
+    <string name="salir">出口</string>
+    <string name="copiar">コピー</string>
+    <string name="descargar">ダウンロード</string>
+    <string name="m_s_opciones">さらに多くのオプション</string>
+</resources>

@@ -6,10 +6,12 @@ Esta aplicación ha sido desarrollada como parte de un proyecto de creación de 
 
 ## Cambios Realizados
 
-- **Desarrollo del main**: Se ha añadido algunos cambios en el main:
+- Se ha agregado traducciones a la aplicación.
+- Se ha agregado el modo oscuro.
 
-- Se ha agregado un menu que lleva a perfil y con demás opciones.
-- Un webview que ejecuta un gif.
+![Pantalla de traduccion](muestras_pantallas/pantalla_traduccion.jpg)
+![Pantalla de traduccion2](muestras_pantallas/pantalla_traduccion2.jpg)
+![Pantalla modo oscuro](muestras_pantallas/pantalla_modo_oscuro.jpg)
 
 ## Características de la Aplicación
 

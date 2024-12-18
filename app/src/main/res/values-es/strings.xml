@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NiceStart</string>
+    <string name="boton_login">Entrar</string>
+    <string name="sing_up">Registrate</string>
+    <string name="input_username">Nombre de usuario</string>
+    <string name="login">Entrar</string>
+    <string name="signup">Registrate</string>
+    <string name="input_password">Contraseña</string>
+    <string name="logo">Logo</string>
+    <string name="email">Correo</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="cancel">Cancelar</string>
+    <string name="perfil">Perfil</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="salir">Salir</string>
+    <string name="copiar">Copiar</string>
+    <string name="descargar">Descargar</string>
+    <string name="m_s_opciones">Mas opciones</string>
+    <string name="cambiar_de_perfil">Cambiar Perfil</string>
+</resources>

@@ -6,19 +6,19 @@
     <string name="sing_up">SIGN UP</string>
     <string name="input_username">Username</string>
     <string name="input_password">Password</string>
-    <string name="fondo_app">Fondo app</string>
+    <string name="fondo_app" translatable="false">Fondo app</string>
     <string name="logo">Logo</string>
     <string name="email">Email</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="cancel">CANCEL</string>
-    <string name="perfil">Perfil</string>
-    <string name="ajustes">Ajustes</string>
-    <string name="notificaciones">Notificaciones</string>
-    <string name="cambiar_de_perfil">Cambiar de perfil</string>
-    <string name="salir">Salir</string>
-    <string name="studio">Studio</string>
-    <string name="copiar">Copiar</string>
-    <string name="descargar">Descargar</string>
-    <string name="ola_k_tal">Ola k tal</string>
-    <string name="m_s_opciones">Más opciones</string>
+    <string name="perfil">Profile</string>
+    <string name="ajustes">Settings</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="cambiar_de_perfil">Switch Profile</string>
+    <string name="salir">Exit</string>
+    <string name="studio" translatable="false">Studio</string>
+    <string name="copiar">Copy</string>
+    <string name="descargar">Download</string>
+    <string name="ola_k_tal" translatable="false">Ola k tal</string>
+    <string name="m_s_opciones">More options</string>
 </resources>

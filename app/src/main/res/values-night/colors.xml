@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modo Oscuro -->
+    <color name="black">#FF121212</color> <!-- Fondo oscuro principal, ligeramente más suave que el negro puro -->
+    <color name="white">#FFDDDDDD</color> <!-- Texto claro, gris muy claro para evitar el blanco puro -->
+    <color name="red">#FFAA4455</color> <!-- Rojo oscuro cálido, adecuado para destacar sin ser demasiado vibrante -->
+    <color name="lightPink">#FF885E7E</color> <!-- Rosa oscuro tenue para consistencia con el modo oscuro -->
+    <color name="green">#FF1F7A56</color> <!-- Verde oscuro que sigue siendo legible sobre fondo negro -->
+    <color name="gray">#FF2C2C2C</color> <!-- Gris oscuro para elementos secundarios y fondos adicionales -->
+    <color name="pink">#FF9141C5</color> <!-- Rosa oscuro brillante para acentos en modo oscuro -->
+</resources>
