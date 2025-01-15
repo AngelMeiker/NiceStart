@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Ícono que aparecerá en el lado derecho -->
+    <item
+        android:id="@+id/menu_submenu"
+        android:title="Right"
+        android:icon="@drawable/amor"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_submenu2"
+        android:title="left"
+        android:icon="@drawable/relog"
+        app:showAsAction="always" />
+</menu>

@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.NiceStart">
-
+        <activity
+            android:name=".mainbab"
+            android:exported="true" />
         <activity
             android:name=".splash"
             android:exported="true"
@@ -20,6 +22,7 @@
             tools:ignore="DiscouragedApi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -28,27 +31,24 @@
             android:exported="true"
             android:screenOrientation="fullSensor"
             tools:ignore="DiscouragedApi" />
-
         <activity
             android:name=".sign_up"
             android:exported="true"
-            android:theme="@style/Theme.NiceStart.ActionBar"
-            android:screenOrientation="fullSensor"
             android:parentActivityName=".login"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.NiceStart.ActionBar"
             tools:ignore="DiscouragedApi" />
         <activity
             android:name=".main"
             android:exported="true"
-            android:theme="@style/Theme.NiceStart.ActionBar"
             android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.NiceStart.ActionBar"
             tools:ignore="DiscouragedApi" />
-
         <activity
             android:name=".profileActivity"
             android:exported="true"
             android:screenOrientation="fullSensor"
             tools:ignore="DiscouragedApi" />
-
     </application>
 
 </manifest>
