@@ -22,17 +22,6 @@ public class mainbab extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainbab);
 
-//        this.getSupportActionBar().setDisplayShowCustomEnabled(true);
-//
-//        LayoutInflater inflater = LayoutInflater.from(this);
-//        View v = inflater.inflate(R.layout.custom_action_bar, null);
-//
-//        TextView titleTextView = (TextView) v.findViewById(R.id.custom_action_bar_title);
-//        titleTextView.setText(this.getTitle());
-//        titleTextView.setTypeface(App.getInstance().getActionBarTypeFace());
-//
-//        this.getSupportActionBar().setCustomView(v);
-
         // cast al xml
         BottomAppBar bottomAppBar = findViewById(R.id.bottom_app_bar);
         FloatingActionButton myfab = findViewById(R.id.fab);

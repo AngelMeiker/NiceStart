@@ -6,7 +6,7 @@ Esta aplicación ha sido desarrollada como parte de un proyecto de creación de 
 
 ## Cambios Realizados
 
-- Se ha agregado un menu bab de prueba.
+- Se ha agregado un menu de navegación al proyecto.
 
 ![Pantalla de traduccion](muestras_pantallas/pantalla_traduccion.jpg)
 ![Pantalla de traduccion2](muestras_pantallas/pantalla_traduccion2.jpg)
@@ -47,9 +47,14 @@ La aplicación cuenta con las siguientes pantallas:
 - Se muestra una pantalla, donde el usuario ve una imagen de webview, además de poder acceder a un
 menu con distintas opciones, como ir al perfil y salir de la aplicación.
 
+  ![Pantalla Principal](muestras_pantallas/pantalla_main.jpg)
+
+### Pantalla navegación
+- Permitirá al usuario navegar dentro de la app.
+
 ### Pantalla Main bab
 
 - Esta pantalla es de prueba, para comprobar el funcionamiento.
 
 
-  ![Pantalla Principal](muestras_pantallas/pantalla_main.jpg)
+

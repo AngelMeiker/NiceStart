@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NiceStart">
         <activity
+            android:name=".MainBn"
+            android:exported="true" />
+        <activity
             android:name=".mainbab"
             android:exported="true" />
         <activity
