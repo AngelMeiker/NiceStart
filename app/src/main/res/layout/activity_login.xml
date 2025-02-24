@@ -19,9 +19,6 @@
         app:layout_constraintEnd_toEndOf="@id/act_login"
         app:layout_constraintBottom_toBottomOf="@id/act_login"
         />
-        <!--android:src="@drawable/luffy"-->
-
-
 
     <ImageView
         android:id="@+id/logo"

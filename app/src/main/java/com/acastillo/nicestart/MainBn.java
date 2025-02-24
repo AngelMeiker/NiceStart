@@ -15,7 +15,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainBn extends AppCompatActivity {
 
     private MenuItem prevMenuItem;
-    private SectionsPagerAdapter sectionsPagerAdapter;
 
 
     @Override
@@ -24,7 +23,7 @@ public class MainBn extends AppCompatActivity {
         setContentView(R.layout.activity_main_bn);
 
         // Solo pasamos getSupportFragmentManager() al adaptador
-        sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);

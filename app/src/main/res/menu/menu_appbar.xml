@@ -3,7 +3,7 @@
 
     <!-- Elemento principal del menú -->
     <item
-        android:id="@+id/item4"
+        android:id="@+id/item0"
         android:title="@string/salir"
         app:showAsAction="ifRoom"/>
     <item
@@ -30,6 +30,14 @@
                 android:id="@+id/item3"
                 android:title="@string/perfil"
                 android:icon="@drawable/perfil"/>
+            <item
+                android:id="@+id/item4"
+                android:title="@string/menu_bn"
+                android:icon="@drawable/menu_bn"/>
+            <item
+                android:id="@+id/item5"
+                android:title="@string/main_bn"
+                android:icon="@drawable/main_bn"/>
 
         </menu>
 

@@ -98,10 +98,26 @@ public class main extends AppCompatActivity {
             Intent intent = new Intent(this, profileActivity.class);
             startActivity(intent);
         }
-        else if(id == R.id.item4){
+        else if(id == R.id.item0){
             message = "";
             showAlertDialogButtonClicked();
-        } else {
+        }
+        else if(id == R.id.item4){
+            message = "";
+            Intent intent = new Intent(this, MainBn.class);
+            startActivity(intent);
+        }
+        else if(id == R.id.item4){
+            message = "";
+            Intent intent = new Intent(this, MainBn.class);
+            startActivity(intent);
+        }
+        else if(id == R.id.item4){
+            message = "";
+            Intent intent = new Intent(this, mainbab.class);
+            startActivity(intent);
+        }
+        else {
             message = "";
         }
 

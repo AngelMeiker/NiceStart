@@ -23,4 +23,6 @@
     <string name="m_s_opciones">More options</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_bn">Menú bn</string>
+    <string name="main_bn">Main bn</string>
 </resources>
