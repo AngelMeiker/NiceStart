@@ -4,19 +4,23 @@
     <!-- Elemento principal del menú -->
     <item
         android:id="@+id/home"
-        android:title="Home"
+        android:title="@string/home"
+        android:icon="@drawable/home"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/eventos"
-        android:title="Eventos"
+        android:icon="@drawable/event"
+        android:title="@string/eventos"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/opciones"
-        android:title="Opciones"
+        android:icon="@drawable/options"
+        android:title="@string/opciones"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/perfil"
-        android:title="Perfil"
+        android:icon="@drawable/perfil_2"
+        android:title="@string/perfil"
         app:showAsAction="ifRoom"/>
 
 

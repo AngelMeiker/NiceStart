@@ -17,6 +17,7 @@ public class MainBn extends AppCompatActivity {
     private MenuItem prevMenuItem;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,18 +63,22 @@ public class MainBn extends AppCompatActivity {
     private void setupBadges(BottomNavigationView bottomNavigationView) {
         // Configura los badges para cada elemento
         BadgeDrawable badge = bottomNavigationView.getOrCreateBadge(R.id.home);
+        badge.setBackgroundColor(getColor(R.color.red));
         badge.setVisible(true);
-        badge.setNumber(5);
+
 
         badge = bottomNavigationView.getOrCreateBadge(R.id.eventos);
+        badge.setBackgroundColor(getColor(R.color.red));
         badge.setVisible(true);
-        badge.setNumber(2);
+
 
         badge = bottomNavigationView.getOrCreateBadge(R.id.perfil);
+        badge.setBackgroundColor(getColor(R.color.red));
         badge.setVisible(true);
 
         badge = bottomNavigationView.getOrCreateBadge(R.id.opciones);
-        badge.setVisible(false); // Oculto inicialmente
+        badge.setBackgroundColor(getColor(R.color.red));
+        badge.setVisible(true);
     }
 
     private void handleNavigationSelection(@NonNull MenuItem item, ViewPager viewPager) {

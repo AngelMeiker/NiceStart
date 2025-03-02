@@ -21,8 +21,11 @@
     <string name="descargar">Download</string>
     <string name="ola_k_tal" translatable="false">Ola k tal</string>
     <string name="m_s_opciones">More options</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_bn">Menú bn</string>
     <string name="main_bn">Main bn</string>
+    <string name="home">Home</string>
+    <string name="eventos">Events</string>
+    <string name="opciones">Options</string>
+    <string name="imagen" translatable="false">Imagen</string>
 </resources>

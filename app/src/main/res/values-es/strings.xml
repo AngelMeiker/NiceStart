@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">NiceStart</string>
-    <string name="boton_login">Entrar</string>
-    <string name="sing_up">Registrate</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="signup">Registrarse\n</string>
+    <string name="boton_login">INICIAR SESIÓN</string>
+    <string name="sing_up">REGISTRARSE</string>
     <string name="input_username">Nombre de usuario</string>
-    <string name="login">Entrar</string>
-    <string name="signup">Registrate</string>
     <string name="input_password">Contraseña</string>
+    <string name="fondo_app" translatable="false">Fondo app</string>
     <string name="logo">Logo</string>
-    <string name="email">Correo</string>
+    <string name="email">Correo electrónico</string>
     <string name="confirm_password">Confirmar contraseña</string>
-    <string name="cancel">Cancelar</string>
+    <string name="cancel">CANCELAR</string>
     <string name="perfil">Perfil</string>
     <string name="ajustes">Ajustes</string>
     <string name="notificaciones">Notificaciones</string>
+    <string name="cambiar_de_perfil">Cambiar perfil</string>
     <string name="salir">Salir</string>
+    <string name="studio" translatable="false">Studio</string>
     <string name="copiar">Copiar</string>
     <string name="descargar">Descargar</string>
-    <string name="m_s_opciones">Mas opciones</string>
-    <string name="cambiar_de_perfil">Cambiar Perfil</string>
+    <string name="ola_k_tal" translatable="false">Ola k tal</string>
+    <string name="m_s_opciones">Más opciones</string>
+    <string name="hello_blank_fragment">Hola fragmento vacío</string>
+    <string name="menu_bn">Menú bn</string>
+    <string name="main_bn">Main bn</string>
+    <string name="home">Inicio</string>
+    <string name="eventos">Eventos</string>
+    <string name="opciones">Opciones</string>
 </resources>

@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NiceStart</string>
-    <string name="login">ログイン</string>
-    <string name="signup">"登録する "</string>
-    <string name="boton_login">" ログイン"</string>
-    <string name="sing_up">"登録する "</string>
-    <string name="input_username">"ユーザー名 "</string>
-    <string name="input_password">"パスワード "</string>
-    <string name="logo">"ロゴ "</string>
-    <string name="email">" 電子メール"</string>
-    <string name="confirm_password">パスワードを認証する</string>
-    <string name="cancel">キャンセル</string>
-    <string name="perfil">プロフィール</string>
-    <string name="ajustes">設定</string>
-    <string name="notificaciones">通知</string>
-    <string name="cambiar_de_perfil">プロフィールを変更する</string>
-    <string name="salir">出口</string>
-    <string name="copiar">コピー</string>
-    <string name="descargar">ダウンロード</string>
-    <string name="m_s_opciones">さらに多くのオプション</string>
+    <string name="app_name">ナイススタート</string> <!-- Naisu Sutāto -->
+    <string name="login">ログイン</string> <!-- Roguin -->
+    <string name="signup">サインアップ\n</string> <!-- Sain Appu -->
+    <string name="boton_login">ログイン</string> <!-- Roguin -->
+    <string name="sing_up">サインアップ</string> <!-- Sain Appu -->
+    <string name="input_username">ユーザー名</string> <!-- Yūzāmei -->
+    <string name="input_password">パスワード</string> <!-- Pasuwādo -->
+    <string name="fondo_app" translatable="false">Fondo app</string>
+    <string name="logo">ロゴ</string> <!-- Rogo -->
+    <string name="email">メールアドレス</string> <!-- Mēru Adoresu -->
+    <string name="confirm_password">パスワード確認</string> <!-- Pasuwādo Kakunin -->
+    <string name="cancel">キャンセル</string> <!-- Kyanseru -->
+    <string name="perfil">プロフィール</string> <!-- Purofīru -->
+    <string name="ajustes">設定</string> <!-- Settei -->
+    <string name="notificaciones">通知</string> <!-- Tsūchi -->
+    <string name="cambiar_de_perfil">プロフィール切替</string> <!-- Purofīru Kirikae -->
+    <string name="salir">終了</string> <!-- Shūryō -->
+    <string name="studio" translatable="false">Studio</string>
+    <string name="copiar">コピー</string> <!-- Kopī -->
+    <string name="descargar">ダウンロード</string> <!-- Daunrōdo -->
+    <string name="ola_k_tal" translatable="false">Ola k tal</string>
+    <string name="m_s_opciones">その他のオプション</string> <!-- Sonota no Opushon -->
+    <string name="hello_blank_fragment">空白のフラグメント</string> <!-- Kūhaku no Furagumento -->
+    <string name="menu_bn">メニュー bn</string> <!-- Menyū bn -->
+    <string name="main_bn">メイン bn</string> <!-- Mein bn -->
+    <string name="home">ホーム</string> <!-- Hōmu -->
+    <string name="eventos">イベント</string> <!-- Ibento -->
+    <string name="opciones">オプション</string> <!-- Opushon -->
 </resources>

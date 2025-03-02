@@ -13,7 +13,7 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/myswipe"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         app:layout_constraintStart_toStartOf="@id/main"
         app:layout_constraintEnd_toEndOf="@id/main"
         app:layout_constraintTop_toTopOf="@id/main"

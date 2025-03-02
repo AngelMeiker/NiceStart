@@ -22,12 +22,14 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.util.Random;
+
 public class main extends AppCompatActivity {
 
-    private static final String URL_TO_LOAD = "https://steamuserimages-a.akamaihd.net/ugc/2022713958815730466/08D4493B352255BF529F30FC3B3C919C3ADD1D6A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false";
 
     private SwipeRefreshLayout swipeLayout;
     private WebView miVisorWeb;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +61,7 @@ public class main extends AppCompatActivity {
         WebSettings webSettings = miVisorWeb.getSettings();
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
-        miVisorWeb.loadUrl(URL_TO_LOAD);
+        miVisorWeb.loadUrl(urlList[currentUrlIndex]); // Carga la primera URL de la lista
     }
 
     @Override
@@ -142,27 +144,34 @@ public class main extends AppCompatActivity {
     private final SwipeRefreshLayout.OnRefreshListener mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
         @Override
         public void onRefresh() {
-            // Mostrar un Toast indicando que se está cargando
-            Toast.makeText(main.this, "Cargando imagen", Toast.LENGTH_LONG).show();
 
-            // Recargar el WebView
-            miVisorWeb.reload();
+            currentUrlIndex = new Random().nextInt(urlList.length);
 
-            // Establecer la animación de refresco
-            swipeLayout.setRefreshing(true);
+            // Cargar la nueva URL
+            miVisorWeb.loadUrl(urlList[currentUrlIndex]);
 
-            // Usar un WebViewClient para detectar cuando la carga de la página se haya completado
+            Toast.makeText(
+                    main.this,
+                    "Cargando...",
+                    Toast.LENGTH_SHORT
+            ).show();
+
             miVisorWeb.setWebViewClient(new WebViewClient() {
                 @Override
                 public void onPageFinished(WebView view, String url) {
-                    super.onPageFinished(view, url);
-
-                    // Detener la animación de refresco una vez que la página se haya cargado
                     swipeLayout.setRefreshing(false);
                 }
             });
         }
     };
+
+    // Lista de URLs de imágenes
+    private final String[] urlList = {
+            "https://i.pinimg.com/originals/9c/a7/25/9ca725d88fe8e5ef9ab37bc50c75903f.gif",
+            "https://qph.cf2.quoracdn.net/main-qimg-d29d307c48530bebb6fd5f1269cac99e",
+            "https://gifdb.com/images/high/fighting-scenario-between-luffy-and-rob-lucci-pbfic8u38ui8edol.gif"
+    };
+    private int currentUrlIndex = 0;
 
     private void showAlertDialogButtonClicked() {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
