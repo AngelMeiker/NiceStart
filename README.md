@@ -1,62 +1,122 @@
-<h1
+<center><h1> NiceStart</h1></center>
 
 ![Imagen principal de la Aplicación](https://i.pinimg.com/originals/3a/de/c9/3adec97bc4bb8f6155bdf45b44034783.png)
 
-# Aplicación de Desarrollo de Interfaces
+## Aplicación para Desarrollo de Interfaces
 
-Esta aplicación ha sido desarrollada como parte de un proyecto de creación de interfaces. A continuación, se presentan las características y los cambios implementados.
+Esta aplicación está hecha como proyecto para la asignatura de Desarrollo de Interfaces, no es una aplicacion real y mucho menos comercial.
 
-## Cambios Realizados
+El diseño, mayormente está inspirado en ***One Piece***.
 
-- Se ha agregado un menu de navegación al proyecto.
+## Cambios con respecto a la anterior versión
 
-![Pantalla de traduccion](muestras_pantallas/pantalla_traduccion.jpg)
-![Pantalla de traduccion2](muestras_pantallas/pantalla_traduccion2.jpg)
-![Pantalla modo oscuro](muestras_pantallas/pantalla_modo_oscuro.jpg)
+Esta es la versión **final** del proyecto, con todos los cambios e implementaciones pedidas por el profesor durante el semestre.
 
-## Características de la Aplicación
+Detalles:
+
+- La mayoría de imágenes usa Glide para cargar.
+- Algunas imágenes se sacan directamente de Internet.
+
+## Pantallas
 
 La aplicación cuenta con las siguientes pantallas:
 
-### Pantalla de Splash
+### Splash
 
-- Introducción visual mientras se cargan los recursos.
+Pantalla donde carga la animación de bienvenida, está hecha con los recursos básicos de Android Studio (no usa Lottie, ni similares).
 
-  ![Pantalla de Splash](muestras_pantallas/pantalla_splash.jpg)
+![Pantalla de Splash](muestras_pantallas/pantalla_splash.jpg)
 
-### Pantalla de Login
+---
 
-- Interfaz amigable que permite a los usuarios iniciar sesión.
-- **Glide** integrado para gestión y carga de imágenes.
+### Iniciar sesión
 
-  ![Pantalla de Login](muestras_pantallas/pantalla_login.jpg)
+Pantalla donde el usuario iniciará sesión.
 
-### Pantalla de Registro
+![Pantalla de Login](muestras_pantallas/pantalla_login.jpg)
 
-- Interfaz sencilla para el registro de nuevos usuarios.
-- También incluye **Glide** para la carga de imágenes.
+---
 
-  ![Pantalla de Registro](muestras_pantallas/pantalla_signup.jpg)
+### Registro
 
-### Pantalla de Perfil
+Pantalla donde el se registrará.
 
-- Pantalla donde el usuario podrá acceder a su cuenta y salir al menu de login.
+![Pantalla de Registro](muestras_pantallas/pantalla_registro.jpg)
 
-  ![Pantalla de Perfil](muestras_pantallas/pantalla_profile.jpg)
+---
 
-### Pantalla Principal
+### Main
 
-- Se muestra una pantalla, donde el usuario ve una imagen de webview, además de poder acceder a un
-menu con distintas opciones, como ir al perfil y salir de la aplicación.
+Pantalla que al entrar, se verá una un gif (debes tener internet para que te te cargue).
 
-  ![Pantalla Principal](muestras_pantallas/pantalla_main.jpg)
+Detalles:
 
-### Pantalla navegación
-- Permitirá al usuario navegar dentro de la app.
+- Usa un SwipeToRefresh, cuando refrescas carga un nuevo gif.
 
-### Pantalla Main bab
+![Pantalla de Main 1](muestras_pantallas/pantalla_main_1.jpg)
+![Pantalla de Main 2](muestras_pantallas/pantalla_main_2.jpg)
 
-- Esta pantalla es de prueba, para comprobar el funcionamiento.
+- Tiene un appbar el cual, permite salir al usuario o seleccionar más opciones.
 
+![Pantalla de main 3](muestras_pantallas/pantalla_main_3.jpg)
+![Pantalla de main 4](muestras_pantallas/pantalla_main_4.jpg)
+![Pantalla de main 5](muestras_pantallas/pantalla_main_5.jpg)
 
+---
 
+### Perfil
+
+Pantalla que muestra una imagen, que sería la el perfil del usuario.
+
+![Pantalla de Perfil](muestras_pantallas/pantalla_perfil.jpg)
+
+---
+
+### Main bab
+
+Pantalla de ejemplo de un main bab.
+
+Detalles:
+
+- Incluye un recycleView que muestra imágenes de internet.
+- Boton que muestra un toast.
+
+![Pantalla de Main Bab](muestras_pantallas/pantalla_main_bab.jpg)
+
+---
+
+### Main bn
+
+Pantalla de ejemplo de un main bn.
+
+![Pantalla de Main Bn 1](muestras_pantallas/pantalla_main_bn_1.jpg)
+![Pantalla de Main Bn 2](muestras_pantallas/pantalla_main_bn_2.jpg)
+![Pantalla de Main Bn 3](muestras_pantallas/pantalla_main_bn_3.jpg)
+![Pantalla de Main Bn 4](muestras_pantallas/pantalla_main_bn_4.jpg)
+
+---
+
+### Horizontal
+
+Pantalla que muestra la app estando en vertical.
+
+![Pantalla de Main horizontal 1](muestras_pantallas/pantalla_main_horizontal_1.jpg)
+![Pantalla de Main horizontal 2](muestras_pantallas/pantalla_main_horizontal_2.jpg)
+
+---
+
+### Idioma
+
+Pantalla que muestra la app en otro idioma.
+
+![Pantalla idioma](muestras_pantallas/pantalla_idioma_1.jpg)
+![Pantalla idioma](muestras_pantallas/pantalla_idioma_2.jpg)
+
+---
+
+### Modo oscuro
+
+Pantalla con el modo oscuro activado.
+
+![Pantalla oscura1](muestras_pantallas/pantalla_login_modo_oscuro.jpg)
+![Pantalla oscura1](muestras_pantallas/pantalla_register_modo_oscuro.jpg)
