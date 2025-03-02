@@ -8,7 +8,7 @@
 
 Esta aplicación está hecha como proyecto para la asignatura de Desarrollo de Interfaces, no es una aplicacion real y mucho menos comercial.
 
-El diseño, mayormente está inspirado en ***One Piece***.
+El diseño, mayormente, está inspirado en ***One Piece***.
 
 ## Cambios con respecto a la anterior versión
 
