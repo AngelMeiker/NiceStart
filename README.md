@@ -66,12 +66,13 @@ Detalles:
   <img src="muestras_pantallas/pantalla_main_2.jpg" width="200">
 </div>
 
-- Tiene un appbar el cual, permite salir al usuario o seleccionar más opciones.
+- Tiene un appbar (con su menu context) el cual, permite salir al usuario o seleccionar más opciones.
 
 <div align="center">
   <img src="muestras_pantallas/pantalla_main_3.jpg" width="150">
   <img src="muestras_pantallas/pantalla_main_4.jpg" width="150">
   <img src="muestras_pantallas/pantalla_main_5.jpg" width="150">
+  <img src="muestras_pantallas/pantalla_menu_context.jpg" width="150">
 </div>
 
 ---
